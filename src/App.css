@@ -1,0 +1,104 @@
+/* Global */
+.home-content {
+  background-image: linear-gradient(153.43deg, rgba(202, 220, 99, 0.2) 0%, rgba(71, 186, 179, 0.2) 33.33%, #fff 73.33%);
+}
+.red-color {
+  background: #c70039 !important;
+}
+.blue-color {
+  background: #1577e6 !important;
+}
+.green-color {
+  background: #67ee1e !important;
+}
+.orange-color {
+  background: #ff5733 !important;
+}
+.yellow-color {
+  background: #ffc300 !important;
+}
+.tosca-color {
+  background: #2decd5 !important;
+}
+.h1-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.h2-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.h3-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.h4-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.h5-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.h6-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.p-text {
+  font-size: 16px;
+  font-weight: normal;
+  color: #292929;
+}
+.p-text-bold {
+  font-size: 16px;
+  font-weight: bold;
+  color: #292929;
+}
+
+.button {
+  padding: 6px 18px;
+  position: relative;
+  border: 1px solid #1453d2;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  background: #1453d2;
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgb(0 0 0 / 5%), 0 0 0 rgb(0 0 0 / 5%), 0 0 0 rgb(0 0 0 / 5%), 0 0 0 rgb(0 0 0 / 5%), 0 0 0 rgb(0 0 0 / 5%);
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px;
+  background: linear-gradient(180deg, #c6f28c 26.71%, #c6f28b 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(115, 207, 129, 0.42);
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: #fff;
+}
