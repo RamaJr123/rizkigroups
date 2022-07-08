@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="col-md-12 justify-content-center">
             <h1 className="h1-text text-center">Selamat datang di RizkiGroups.</h1>
             <p className="p-text text-center">Platform startup yang melayani segala kebutuhan teknologi anda.</p>
-            <div className="services-example">
+            <div className="services-example" data-aos="fade-up">
               <ul>
                 <li className="red-color">Video Editing</li>
                 <li className="blue-color">Web Developing</li>
@@ -19,7 +19,7 @@ const Hero = () => {
                 <li className="tosca-color">Mobile App</li>
               </ul>
             </div>
-            <button className="button blue-color" style={{ left: '42%', marginTop: '80px' }}>
+            <button data-aos="fade-up" className="button blue-color d-block mx-auto" style={{ marginTop: '80px' }}>
               Lihat Lebih Lanjut
             </button>
           </div>

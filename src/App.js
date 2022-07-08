@@ -8,8 +8,16 @@ import Service from './components/Services/Service';
 import PricingPage from './components/Pricing/PricingPage';
 import Package from './components/Package/Package';
 import Question from './components/Question/Question';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'animate.css';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Router>
       <Routes>

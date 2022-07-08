@@ -37,6 +37,7 @@
 .achievement {
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
   align-items: center;
 }
 
@@ -52,4 +53,10 @@
   justify-content: center;
   gap: 5rem;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    transform: scale(0.7);
+  }
 }

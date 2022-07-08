@@ -11,18 +11,18 @@ const Benefit = () => {
     <section id="benefit">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-12">
+          <div className="col-md-12" data-aos="fade-up">
             <h1 className="h1-text text-center">Kelebihan</h1>
             <p className="p-text text-center">Berikut merupakan beberapa kelebihan dari startup kami</p>
           </div>
         </div>
-        <div className="row" style={{ marginTop: '100px' }}>
-          <div className="col-md-4">
+        <div className="row" data-aos="fade-up" style={{ marginTop: '100px' }}>
+          <div className="col-md-4 mb-5">
             <img src={Dollar} className="d-block mx-auto" width={40} alt="" />
             <h3 className="h3-text text-center mt-3">Terjangkau</h3>
             <p className="p-text text-center">Layanan dengan harga yang terjangkau</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-5">
             <img src={Quality} className="d-block mx-auto" width={55} alt="" />
             <h3 className="h3-text text-center mt-3">Kualitas baik</h3>
             <p className="p-text text-center">Memberikan layanan dengan kualitas terbaik</p>
