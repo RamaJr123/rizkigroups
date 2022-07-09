@@ -1,6 +1,9 @@
 import React from 'react';
 import './Project.css';
 import SS from '../../../images/ssan.png';
+import Laravel from '../../../images/laravel-brands.svg';
+import HTML from '../../../images/html5-brands.svg';
+import CSS from '../../../images/css3-brands.svg';
 
 const Project = () => {
   return (
@@ -64,6 +67,15 @@ const Project = () => {
                 </h2>
                 <p>Nah, ahli ide sekaligus penemu RizkiGroups yang satu ini selalu jadi yang paling santai waktu lagi handle sesuatu</p>
               </figcaption>
+              <p style={{ padding: '5px 0 15px 25px' }} className="p-text-bold-white">
+                Tools Used :
+              </p>
+              <hr style={{ color: 'blue' }} />
+              <div className="tool-icon">
+                <img src={Laravel} className="" alt="" />
+                <img src={HTML} className="" alt="" />
+                <img src={CSS} className="" alt="" />
+              </div>
             </figure>
           </div>
           <div className="col-md-4">
@@ -74,8 +86,13 @@ const Project = () => {
                 <h2>
                   3D Chair Design<span>Created By : Raihan Rizki</span>
                 </h2>
-                <p>Kalau yang satu ini ahli improvisasi nya RizkiGroups, sekaligus orang yang berperan mengembangkan RizkiGroups</p>
+                <p className="snip1223">Kalau yang satu ini ahli improvisasi nya RizkiGroups, sekaligus orang yang berperan mengembangkan RizkiGroups</p>
               </figcaption>
+              <p style={{ padding: '5px 0 15px 25px' }} className="p-text-bold-white">
+                Tools Used :
+              </p>
+              <hr style={{ color: 'blue' }} />
+              <div className="tool-icon"></div>
             </figure>
           </div>
           <div className="col-md-4">
@@ -88,6 +105,11 @@ const Project = () => {
                 </h2>
                 <p>Kalau yang satu ini ahli improvisasi nya RizkiGroups, sekaligus orang yang berperan mengembangkan RizkiGroups</p>
               </figcaption>
+              <p style={{ padding: '5px 0 15px 25px' }} className="p-text-bold-white">
+                Tools Used :
+              </p>
+              <hr style={{ color: 'blue' }} />
+              <div className="tool-icon"></div>
             </figure>
           </div>
         </div>
