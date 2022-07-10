@@ -10,13 +10,13 @@ const Services = () => {
     <section id="services">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-12">
+          <div className="col-md-12" data-aos="fade-up">
             <h1 className="h1-text text-center">Our Services</h1>
             <p className="p-text text-center">Berikut merupakan beberapa jasa / layanan yang bisa kami handle</p>
           </div>
         </div>
         <div className="row d-flex pt-5">
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div className="icon-box">
               <div className="icon">
                 <img src={JS} alt="" />
@@ -27,7 +27,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div className="icon-box">
               <div className="icon">
                 <img src={Design} alt="" />
@@ -36,7 +36,7 @@ const Services = () => {
               <p className="description">Melayani jasa 3d designing dengan tim yang memiliki pengalaman lebih dari 1 tahun di dalam bidang 3d designing dengan menggunakan tool seperti blender, maya dan sejenisnya</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div className="icon-box">
               <div className="icon">
                 <img src={Photo} alt="" />
@@ -45,7 +45,7 @@ const Services = () => {
               <p className="description">Melayani jasa photo editing dengan tim yang memiliki pengalaman lebih dari 4 tahun di dalam bidang photo editing dengan menggunakan tool seperti adobe photoshop dan sejenisnya</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div className="icon-box">
               <div className="icon">
                 <img src={Video} alt="" />

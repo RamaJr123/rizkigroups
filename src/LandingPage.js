@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import Hero from './components/LandingPage/Hero/Hero';
@@ -9,6 +9,9 @@ import 'font-awesome/css/font-awesome.min.css';
 import Footer from './components/Footer/Footer';
 
 const LandingPage = () => {
+  useEffect(() => {
+    document.title = 'RizkiGroups';
+  }, []);
   return (
     <div>
       <Navbar />

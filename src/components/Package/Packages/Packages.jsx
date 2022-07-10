@@ -6,13 +6,13 @@ const Packages = () => {
     <section id="packages">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-12">
+          <div className="col-md-12" data-aos="fade-up">
             <h1 className="h1-text text-center">List Paket</h1>
             <p className="p-text text-center">Kalau tadi list harga, sekarang ini ibarat paket hematnya / paket bundle nya</p>
           </div>
         </div>
         <div class="pricing-table pt-5">
-          <div class="pricing-card">
+          <div class="pricing-card" data-aos="fade-up">
             <h3 class="pricing-card-header">Complete Website</h3>
             <div class="price">
               <span>
@@ -38,7 +38,7 @@ const Packages = () => {
             </a>
           </div>
 
-          <div class="pricing-card">
+          <div class="pricing-card" data-aos="fade-up">
             <h3 class="pricing-card-header">3D Photo</h3>
             <div class="price">
               <span>
@@ -64,7 +64,7 @@ const Packages = () => {
             </a>
           </div>
 
-          <div class="pricing-card">
+          <div class="pricing-card" data-aos="fade-up">
             <h3 class="pricing-card-header">3D Video Editing</h3>
             <div class="price">
               <span>
@@ -90,7 +90,7 @@ const Packages = () => {
             </a>
           </div>
 
-          <div class="pricing-card">
+          <div class="pricing-card" data-aos="fade-up">
             <h3 class="pricing-card-header">3D Complete</h3>
             <div class="price">
               <span>

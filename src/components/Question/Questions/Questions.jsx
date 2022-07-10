@@ -6,11 +6,11 @@ const Questions = () => {
     <section id="questions">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-12">
+          <div className="col-md-12" data-aos="fade-up">
             <h1 className="h1-text text-center">Frequently Asked Question</h1>
             <p className="p-text text-center">Berikut akan menjawab beberapa pertanyaan yang sering di tanyakan oleh pengguna</p>
             <div className="pt-3"></div>
-            <div className="box-accordion pt-5">
+            <div className="box-accordion pt-5" data-aos="fade-up">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
